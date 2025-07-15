@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <title>Welcome!</title>
+   <head>
+    <link rel="stylesheet" href="cssHomePage/lowerSection.css">
+    <link rel="stylesheet" href="cssHomePage/upperSection.css">
+    <link rel="stylesheet" href="cssHomePage/bubbles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+   </head>
+    <body>
+        <div class="upperSection">
+            <div class="name">LevelUp</div>
+            <div class="moto">Rocket your career today</div>
+            <button class="bubbles1 bubbles"></button>
+            <button class="bubbles2 bubbles"></button>
+            <button class="bubbles3 bubbles"></button>
+            <button class="bubbles4 bubbles"></button>
+            <button class="bubbles5"></button>
+            <button class="bubbles6"></button>
+            <button class="bubbles7 bubbles"></button>
+            <button class="bubbles8 bubbles"></button>
+            <button class="bubbles9"></button>
+            <button class="bubbles10"></button>
+            <button class="bubbles11"></button>
+            <button class="bubbles12"></button>
+            <button class="bubbles13"></button>
+            <button class="bubbles14"></button>
+            <button class="bubbles15"></button>
+            <button class="bubbles16 bubbles"></button>
+            <button class="bubbles17"></button>
+            <button class="bubbles18 bubbles"></button>
+            <button class="bubbles19"></button>
+            <button class="bubbles20"></button>
+            <button class="bubbles21"></button>
+            <button class="bubbles22 bubbles"></button>
+        </div>
+        <div class="lowerSection">
+            <button id="startButton" class="startButton">START</button>
+            <button class="signButton" onclick="window.location.href='signInPage.html'">SIGN IN</button>
+        </div>
+         <img id="rocket" src="images/rocket.png" alt="Rocket" />
+    </body>
+    <script>
+        
+        startButton.addEventListener("click", function animation(){
+            rocket.classList.add("animate");
+            setTimeout(() => {
+            window.location.href = "contactDetails.html";
+            }, 1000);
+        });
+    </script>
+</html>

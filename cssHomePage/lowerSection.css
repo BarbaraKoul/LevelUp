@@ -1,0 +1,64 @@
+.lowerSection{
+    background-color: rgb(215,237,236);
+    margin:0;
+    flex: 1;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+button{
+   height: 45px;
+   width: 125px;
+   background-color: rgb(165,90,170);
+   color: rgb(215,237,236);
+   font-weight: bold;
+   border-color: transparent;
+   border-radius: 22.5px;
+   font-size:17px;
+
+}
+
+.startButton{
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.signButton{
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.startButton:hover{
+    margin-bottom: 5px;
+    transition-duration: 0.1s;
+    background-color: rgb(118, 64, 121);
+    color: rgba(243, 243, 48, 0.929);
+}
+.signButton:hover{
+    margin-bottom: 5px;
+    transition-duration: 0.1s;
+    background-color: rgb(118, 64, 121);
+    color: rgba(243, 243, 48, 0.929);
+}
+
+@keyframes fly {
+  from { left: -150px; bottom: 0;}
+  to { left: 100vw; top:0;}
+}
+
+#rocket {
+  position: absolute;
+  top: 100%;
+  left: -150px;  
+  width: 100px;
+  display: none;
+  z-index:2;
+}
+
+#rocket.animate {
+  display: block;
+  animation: fly 1s linear forwards;
+}

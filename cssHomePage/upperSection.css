@@ -1,0 +1,38 @@
+.upperSection{
+    background-image:linear-gradient(rgba(44,194,211,0.2), rgba(23,100,109,0.2));
+    height:480px;
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin:0; 
+}
+
+.name{
+    font-size: 140px;
+    color: rgb(113,61,117);
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom:0;
+    font-family: caveat;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.moto{
+    margin-right: 155px;
+    margin-top: 0;
+    padding-top:0; 
+    color: rgb(113,61,117);
+    font-family: Roboto;
+    font-size:15px;
+    margin-bottom: 30px;
+}
+

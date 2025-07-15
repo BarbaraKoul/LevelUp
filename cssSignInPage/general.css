@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    background-color:rgb(215,237,236);
+}
+
+input{
+    border-color: rgb(187, 185, 185); 
+    margin:0;
+    margin-top:25px;
+     width:300px;
+     height:30px;
+     border-style:solid;
+     border-radius:3px;
+     padding:5px;
+}
+
+.fill{
+    display: grid;
+    justify-content: center;
+    margin-top:5%;
+}
+
+.signIn{
+    background-color:rgb(165,90,170);
+    height:50px;
+    width:300px;
+    border-radius: 25px;
+    border: none;
+    color: rgb(215,237,236);
+    font-size:25px;
+    margin:0;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top:50px;
+    cursor:pointer;
+}
+
+.name{
+    font-size: 140px;
+    color: rgb(113,61,117);
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom:0;
+    font-family: caveat;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+
+}
+
+.moto{
+    margin-right: 155px;
+    margin-top: 0;
+    padding-top:0; 
+    color: rgb(113,61,117);
+    font-family: Roboto;
+    font-size:15px;
+    margin-bottom: 30px;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:rgb(201, 229,246);
+    box-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.signIn:hover{
+    transition-duration: 0.1s;
+    background-color: rgb(118, 64, 121);
+    color: rgba(243, 243, 48, 0.929);
+}
+
+.Remember{
+    scale:0.6;
+    margin:0;
+    padding:0;
+    padding-right:10px;
+}
+.check{
+    display:flex;
+    align-items:center;
+    gap:4px;
+    margin-bottom: 15px;
+    margin:0;
+    width:120px;
+    vertical-align:middle;
+}
+
+label{
+    font-family: Roboto;
+    font-size: 12px;
+    margin:0;
+    width:1000px;
+    color:rgb(118, 64, 121);
+}

@@ -1,0 +1,147 @@
+button:not(.nextButton, .contact, .ShadowButton){
+    background-color:rgb(165,90,170);
+    position:fixed;
+    animation-name: bubbles;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    z-index:0;
+}
+
+.bubble1{
+    height: 50px;
+    width:50px;
+    border-radius:25px;
+    border:none;
+    top:5px;
+    left:5px;
+}
+
+.bubble2{
+    height: 100px;
+    width:100px;
+    border-radius:50px;
+    border:none;
+    top:10px;
+    right:5px;
+}
+
+.bubble3{
+    height: 10px;
+    width:10px;
+    border-radius:5px;
+    border:none;
+    top:100px;
+    left:45px;
+}
+
+.bubble4{
+  height: 22px;
+    width:22px;
+    border-radius:11px;
+    border:none;
+    top:25px;
+    left:100px;  
+}
+
+.bubble5{
+    height: 40px;
+    width:40px;
+    border-radius:20px;
+    border:none;
+    top:40px;
+    left:150px;
+}
+
+.bubble6{
+    height: 70px;
+    width:70px;
+    border-radius:35px;
+    border:none;
+    top:42px;
+    left:240px;
+}
+
+.bubble7{
+    height: 25px;
+    width:25px;
+    border-radius:12.5px;
+    border:none;
+    top:30px;
+    left:300px;
+}
+
+.bubble8{
+    height: 50px;
+    width:50px;
+    border-radius:25px;
+    border:none;
+    top:25px;
+    left:400px;
+}
+
+.bubble9{
+    height: 30px;
+    width:30px;
+    border-radius:15px;
+    border:none;
+    top:20px;
+    right:200px;
+}
+
+.bubble10{
+    height: 60px;
+    width:60px;
+    border-radius:30px;
+    border:none;
+    top:-15px;
+    right:250px;
+}
+
+.bubble11{
+    height: 12px;
+    width:12px;
+    border-radius:6px;
+    border:none;
+    top:12px;
+    left:240px;
+}
+
+.bubble12{
+    height: 12px;
+    width:12px;
+    border-radius:6px;
+    border:none;
+    top:70px;
+    right:150px;
+}
+
+.bubble13{
+    height: 32px;
+    width:32px;
+    border-radius:16px;
+    border:none;
+    top:70px;
+    right:300px;
+}
+
+.bubble14{
+    height: 80px;
+    width:80px;
+    border-radius:40px;
+    border:none;
+    top:10px;
+    right:400px;
+}
+
+@keyframes bubbles{
+    0%{
+        scale:0.9;
+    }
+    50%{
+        scale:1.1
+    }
+    100%{
+        scale:0.9;
+    }
+}

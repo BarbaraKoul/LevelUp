@@ -1,0 +1,215 @@
+.bubbles1{
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+    position: fixed;
+    top: -20px;
+    left:-20px;
+}
+
+.bubbles2{
+    height:110px;
+    width:110px;
+    border-radius:55px;
+    position: fixed;
+    top:30px;
+    left:100px;
+}
+
+.bubbles3{
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    position: fixed;
+    top:160px;
+    left:60px;
+}
+
+.bubbles4{
+    height:25px;
+    width:25px;
+    border-radius:12.5px;
+    position: fixed;
+    top:160px;
+    left:180px;
+}
+
+.bubbles5{
+    height:120px;
+    width:120px;
+    border-radius:60px;
+    position: fixed;
+    top:400px;
+    left:-15px;
+}
+
+.bubbles6{
+    height:90px;
+    width:90px;
+    border-radius:45px;
+    position: fixed;
+    top:440px;
+    left:101px;
+}
+
+.bubbles7{
+    height:25px;
+    width:25px;
+    border-radius:12.5px;
+    position: fixed;
+    top:400px;
+    left:110px;
+}
+
+.bubbles8{
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    position: fixed;
+    top:10px;
+    right:10px;
+}
+.bubbles9{
+    height:150px;
+    width:150px;
+    border-radius:75px;
+    position: fixed;
+    top:390px;
+    left:189px;
+}
+.bubbles10{
+    height:120px;
+    width:120px;
+    border-radius:60px;
+    position: fixed;
+    top:415px;
+    left:334px;
+}
+
+.bubbles11{
+    height:250px;
+    width:250px;
+    border-radius:125px;
+    position: fixed;
+    top:290px;
+    right:-17px;
+}
+
+.bubbles12{
+    height:150px;
+    width:150px;
+    border-radius:75px;
+    position: fixed;
+    top:260px;
+    right:150px;
+}
+
+.bubbles13{
+    height:250px;
+    width:250px;
+    border-radius:125px;
+    position: fixed;
+    top:340px;
+    right:190px;
+}
+
+.bubbles14{
+    height:150px;
+    width:150px;
+    border-radius:75px;
+    position: fixed;
+    top:400px;
+    right:400px;
+}
+
+.bubbles15{
+    height:130px;
+    width:130px;
+    border-radius:65px;
+    position: fixed;
+    top:435px;
+    left:435px;
+}
+
+.bubbles16{
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    position: fixed;
+    top:200px;
+    right:70px;
+}
+
+.bubbles17{
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    position: fixed;
+    top:305px;
+    right:290px;
+}
+
+.bubbles18{
+    height:60px;
+    width:60px;
+    border-radius:30px;
+    position: fixed;
+    top:330px;
+    right:430px;
+}
+
+.bubbles19{
+    height:150px;
+    width:150px;
+    border-radius:75px;
+    position: fixed;
+    top:395px;
+    left:515px;
+}
+
+.bubbles20{
+    height:170px;
+    width:170px;
+    border-radius:85px;
+    position: fixed;
+    top:365px;
+    left:610px;
+}
+
+.bubbles21{
+    height:230px;
+    width:230px;
+    border-radius:115px;
+    position: fixed;
+    top:385px;
+    left:765px;
+}
+
+.bubbles22{
+    height:35px;
+    width:35px;
+    border-radius:17.5px;
+    position: fixed;
+    top:365px;
+    left:770px;
+}
+
+.bubbles{
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement{
+    0%{
+
+    }
+    50%{
+        scale:1.2;
+        
+    }
+    100%{
+        
+    }
+}
