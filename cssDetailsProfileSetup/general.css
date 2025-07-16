@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(215,237,236);
+    margin:0;
+    font-family: Roboto;
+}
+
+.description{
+    background-color: rgb(201, 229,246);
+    display:flex;
+    justify-content:center;
+    padding-top: 50px;
+    padding-bottom:30px;
+    font-weight:550;
+    font-size:35px;
+    color:rgb(118, 64, 121);
+    box-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.questions{
+    display:flex; 
+    justify-content:center;
+    padding-top:150px;
+    align-items:center;
+    flex-direction:column;
+}
+
+input{
+    padding:0;
+    height:30px;
+    margin-top: 5px;
+    width:200px;
+}
+
+p{
+     color:rgb(118, 64, 121);
+     font-size:25px;
+     font-weight:500;
+}

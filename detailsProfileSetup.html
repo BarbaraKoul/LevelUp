@@ -1,10 +1,30 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <title>Profile Setup</title>
     <head>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <link rel="stylesheet" href="cssDetailsProfileSetup/general.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     </head>
     <body>
-
+        <div class="description">
+            Please tell us about:
+        </div>
+        <div class="questions">
+            <p>What is your birth date?</p>
+            <input type="text" id="date" placeholder="Select a date">
+        </div>
     </body>
+    <script>
+        flatpickr("#date", {
+        dateFormat: "Y-m-d",
+        locale: "en",
+        position:"below" 
+        });
+    </script>
+
 </html>
