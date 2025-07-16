@@ -23,12 +23,13 @@ input{
 .signIn{
     background-color:rgb(165,90,170);
     height:50px;
-    width:300px;
+    width:280px;
     border-radius: 25px;
     border: none;
     color: rgb(215,237,236);
     font-size:25px;
     margin:0;
+    margin-left: 20px;
     font-family: Roboto;
     font-weight: 500;
     margin-top:50px;
