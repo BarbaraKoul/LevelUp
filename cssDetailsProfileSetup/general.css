@@ -1,25 +1,25 @@
 body{
     background-color:rgb(215,237,236);
-    margin:0;
+    margin:1px;
     font-family: Roboto;
 }
 
 .description{
-    background-color: rgb(201, 229,246);
+    background-image: url("/images/backImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display:flex;
     justify-content:center;
     padding-top: 50px;
     padding-bottom:30px;
-    font-weight:550;
-    font-size:35px;
-    color:rgb(118, 64, 121);
     box-shadow: 2px 2px rgba(0,0,0,0.3);
 }
 
 .questions{
     display:flex; 
     justify-content:center;
-    padding-top:150px;
+    padding-top:140px;
     align-items:center;
     flex-direction:column;
 }
@@ -57,4 +57,26 @@ p{
     transition-duration: 0.1s;
     background-color: rgb(118, 64, 121);
     color: rgba(243, 243, 48, 0.929);
+}
+
+.check{
+    display:grid;
+    grid-template-columns:160px 160px;
+    align-items:center;
+    font-size:20px;
+}
+
+.choice{
+    scale:0.6;
+}
+
+.tell{
+    background-color:rgb(118, 64, 121);
+    font-weight:550;
+    font-size:35px;
+    color:rgb(201, 229,246);
+    border-radius:10px;
+    width:350px;
+    text-align:center;
+    padding:5px;
 }
